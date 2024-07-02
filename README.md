@@ -1,1 +1,2 @@
 # RPCEpolicies-Crawl
+Since the search interface is a dynamic page, the crawler framework built in this study is divided into two steps. First, run the ‘pachong5’ script to locate the corresponding industry page according to the keywords to be searched, and then simulate clicks, page turns and other behaviors, and record the URLs of all policies in a csv file. Secondly, run the ‘textcatch2’ script to crawl the corresponding text content according to the URL in the previous csv file.
